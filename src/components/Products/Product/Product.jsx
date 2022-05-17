@@ -33,7 +33,7 @@ const Product = ({ product, onAddToCart }) => {
           </div>
           <Typography
             dangerouslySetInnerHTML={{ __html: product.description }}
-            variant="body-2"
+            variant="body2"
             color="textSecondary"
           />
           <div className="position-absolute bottom-0 end-0">
